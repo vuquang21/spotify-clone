@@ -3,7 +3,6 @@ import { BsFillPlayFill } from 'react-icons/bs'
 import { FaDownload } from 'react-icons/fa'
 import { FcNext } from 'react-icons/fc'
 import { MdOutlineNavigateNext } from 'react-icons/md'
-import banner from '../imgs/banner.png'
 import { SongContext } from './Context'
 
 const Banner = () => {
