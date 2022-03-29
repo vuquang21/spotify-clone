@@ -1,10 +1,10 @@
-import { SongContext } from './components/Context';
-import DetailSong from './components/DetailSong';
-import ListSong from './components/ListSong';
-import Navbar from './components/Navbar';
-import DataSongs from './components/data/songs.json'
-import Player from './components/Player';
 import { useState } from 'react';
+import { SongContext } from './components/Context';
+import DataSongs from './components/data/songs.json';
+import HomePage from './components/HomePage';
+import NavbarSpotify from './components/NavbarSpotify';
+import Player from './components/Player';
+import SettingSpotify from './components/SettingSpotify';
 
 
 function App() {
@@ -16,14 +16,22 @@ function App() {
   return (
     <SongContext.Provider value={{ DataSongs, song, handleSetSong }}>
 
-      <div className="bg-slate-900">
+      {/* <div className="bg-slate-900">
         <Navbar />
         <div className='grid grid-cols-3 bg-slate-700 h-screen-navbar-player'>
           <DetailSong />
           <ListSong />
         </div>
+      </div > */}
+
+      <div>
+        <div className='flex flex-row h-screen-navbar-player'>
+          <NavbarSpotify />
+          <HomePage />
+          <SettingSpotify />
+        </div>
         <Player />
-      </div >
+      </div>
     </SongContext.Provider>
   );
 }

@@ -3,8 +3,14 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        'screen-navbar-player': 'calc(100vh - 6rem - 6em)'
+        'screen-navbar-player': 'calc(86.5vh)'
+      },
+      colors: {
+        green: {
+          'light-green': '#20cf59'
+        }
       }
+
     },
   },
   plugins: [],

@@ -13,7 +13,7 @@ const Player = () => {
     }
     return (
         <AudioPlayer
-            className='player'
+            className='player z-20'
             src={song.url} showSkipControls={true}
             showJumpControls={false}
             layout='stacked-reverse'

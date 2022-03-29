@@ -1,7 +1,8 @@
 .player {
-  background-color: #0f172a;
+  background-color: #181818;
   color: gray;
   margin-top: 8px;
+  border: none;
 }
 
 .rhap_time, .rhap_current-time {
