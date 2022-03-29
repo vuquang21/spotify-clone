@@ -1,24 +1,23 @@
-import React, { useContext, useEffect, useState } from 'react'
-import { FcNext } from 'react-icons/fc'
-import banner from '../imgs/banner.png'
-import { MdOutlineNavigateNext } from 'react-icons/md'
-import ListSong from './ListSong'
-import { FaDownload } from 'react-icons/fa'
-import { SongContext } from './Context'
+import React, { useContext, useState } from 'react'
 import { BsFillPlayFill } from 'react-icons/bs'
+import { FaDownload } from 'react-icons/fa'
+import { FcNext } from 'react-icons/fc'
+import { MdOutlineNavigateNext } from 'react-icons/md'
+import banner from '../imgs/banner.png'
+import { SongContext } from './Context'
 
 const Banner = () => {
     return (
-        <div className='flex flex-col'>
-            {/* arrow  */}
+        <div className='flex flex-col justify-start gap-5 h-[45vh]'>
             <div className='flex flex-row justify-between'>
 
+                {/* arrow  */}
                 <div className='flex flex-row gap-3 ml-8 pt-4'>
                     <div className='w-10 h-10  bg-gray-800 rounded-full flex justify-center items-center hover:bg-zinc-900 cursor-pointer' >
                         <FcNext className='text-white text-[1.5rem] rotate-180' />
                     </div>
-                    <div className='w-10 h-10  bg-gray-800 rounded-full flex justify-center items-center hover:bg-zinc-900 cursor-pointer' >
 
+                    <div className='w-10 h-10  bg-gray-800 rounded-full flex justify-center items-center hover:bg-zinc-900 cursor-pointer' >
                         <FcNext className='text-white text-[1.5rem] ' />
                     </div>
                 </div>
@@ -39,8 +38,8 @@ const Banner = () => {
                 </div>
             </div>
             {/* banner */}
-            <div className='flex justify-center items-center mt-[2rem]'>
-                <img src={banner} className='w-[95%]' />
+            <div className='flex justify-center items-start'>
+                <img src='https://www.soroptimistinternational.org/wp-content/uploads/2020/03/imld.jpg' className='w-[95%] h-[60%]' />
             </div>
         </div>
     )
@@ -76,7 +75,7 @@ const HomePage = () => {
     return (
         <div className='flex flex-col w-[70%] h-[87.5vh] bg-gradient-to-b from-stone-700 to-black '>
             <Banner />
-            <span className='text-[1.25rem] text-white font-bold ml-[2rem] pt-3 pb-2'>Your shows</span>
+            <span className='text-[1.25rem] text-white font-bold ml-[2rem] pb-2'>Your shows</span>
             {/* list song */}
             <div className='col-span-2 overflow-y-scroll h-[48vh] '>
                 <table className="table-auto w-[96.5%] ml-6">

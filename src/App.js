@@ -16,14 +16,6 @@ function App() {
   return (
     <SongContext.Provider value={{ DataSongs, song, handleSetSong }}>
 
-      {/* <div className="bg-slate-900">
-        <Navbar />
-        <div className='grid grid-cols-3 bg-slate-700 h-screen-navbar-player'>
-          <DetailSong />
-          <ListSong />
-        </div>
-      </div > */}
-
       <div>
         <div className='flex flex-row h-screen-navbar-player'>
           <NavbarSpotify />
