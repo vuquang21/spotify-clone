@@ -47,7 +47,9 @@ const SettingSpotify = () => {
                 </div>
                 <span className='text-[1rem] text-[#ababab]'>Go to Setting {'>'} Social and enable 'Share my listening activity on Spotify.'You can turn this off at any time.</span>
             </div>
-            <div></div>
+            <div className='flex justify-center'>
+                <button className='text-black py-3 px-12 bg-white rounded-full font-medium hover:scale-105'>SETTINGS</button>
+            </div>
         </div>
     )
 }
