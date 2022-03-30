@@ -1,8 +1,10 @@
 import { useContext } from 'react';
 import AudioPlayer from 'react-h5-audio-player';
-import 'react-h5-audio-player/lib/styles.css';
+import 'react-h5-audio-player/src/styles.scss'
 import { SongContext } from './Context';
 import '../App.css'
+import styles from './player.module.scss'
+
 const Player = () => {
     const { song, handleSetSong } = useContext(SongContext)
     const handleClickNext = () => {
@@ -10,10 +12,10 @@ const Player = () => {
     }
     const handleClickPrevious = () => {
         handleSetSong(song.id - 1)
-    }
+    }   
     return (
         <AudioPlayer
-            className='player z-20'
+            className={styles.player}
             src={song.url} showSkipControls={true}
             showJumpControls={false}
             layout='stacked-reverse'

@@ -1,14 +1,17 @@
-.player {
-  background-color: #181818;
-  color: gray;
-  margin-top: 8px;
-  border: none;
-}
 
 .rhap_time, .rhap_current-time {
   color: white !important;
 }
+.rhap_progress-section {
+  justify-content: center;
+  color: #ababab;
+}
 
+.rhap_progress-container { 
+  width: 30rem !important;
+  display: flex;
+  flex: none;
+}
 
 @keyframes App-logo-spin {
   from {
