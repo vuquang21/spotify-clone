@@ -11,21 +11,21 @@ const NavbarSpotify = () => {
             className=' flex flex-col gap-5 w-[15%] bg-black h-[87.5vh] text-[#ababab] pl-4 z-0'>
             <BiDotsHorizontal className='text-[2rem] z-10 pt-1' />
             <div className='flex flex-col justify-start items-center gap-3'>
-                <a href='#'
+                <button
                     className='flex flex-row self-start gap-5 decoration-none text-[#ababab]'>
-                    <AiFillHome className='self-center text-[2rem]' /><span>Home</span></a>
-                <a href='#'
+                    <AiFillHome className='self-center text-[2rem]' /><span>Home</span></button>
+                <button
                     className='flex flex-row self-start gap-5 decoration-none text-[#ababab]'>
-                    <BiSearch className='self-center text-[2rem]' /><span>Search</span></a>
-                <a href='#'
+                    <BiSearch className='self-center text-[2rem]' /><span>Search</span></button>
+                <button
                     className='flex flex-row self-start gap-5 decoration-none text-[#ababab]'>
-                    <VscLibrary className='self-center text-[2rem]' /><span>Your Library</span></a>
+                    <VscLibrary className='self-center text-[2rem]' /><span>Your Library</span></button>
             </div>
             <div className='flex flex-col items-start justify-start gap-3'>
-                <a href='#' className='flex flex-row gap-5 decoration-none text-[#ababab]'>
-                    <MdOutlineAddBox className='self-center text-[2rem]' /><span>Create Playlist</span></a>
-                <a href='#' className='flex flex-row gap-5 decoration-none text-[#ababab]'>
-                    <FcLike className='self-center text-[2rem]' /><span>Liked Songs</span></a>
+                <button className='flex flex-row gap-5 decoration-none text-[#ababab]'>
+                    <MdOutlineAddBox className='self-center text-[2rem]' /><span>Create Playlist</span></button>
+                <button className='flex flex-row gap-5 decoration-none text-[#ababab]'>
+                    <FcLike className='self-center text-[2rem]' /><span>Liked Songs</span></button>
             </div>
         </div>
     )

@@ -30,7 +30,7 @@ const Banner = () => {
                     <div className='flex flex-row items-center gap-2 border-white rounded-full bg-zinc-800 py-[0.2rem] px-[0.1rem] cursor-pointer hover:bg-black'>
                         <img
                             className='w-8  h-8 rounded-full'
-                            src='http://surl.li/bqkhr' />
+                            src='http://surl.li/bqkhr' alt='avatar-user' />
                         <span className='font-bold'>Quang Vũ</span>
                         <MdOutlineNavigateNext className='rotate-90' />
                     </div>
@@ -38,7 +38,7 @@ const Banner = () => {
             </div>
             {/* banner */}
             <div className='flex justify-center items-start'>
-                <img src='https://www.soroptimistinternational.org/wp-content/uploads/2020/03/imld.jpg' className='w-[95%] h-[60%]' />
+                <img src='https://www.soroptimistinternational.org/wp-content/uploads/2020/03/imld.jpg' className='w-[95%] h-[60%]' alt='banner' />
             </div>
         </div>
     )
