@@ -30,7 +30,7 @@ const Banner = () => {
                     <div className='flex flex-row items-center gap-2 border-white rounded-full bg-zinc-800 py-[0.2rem] px-[0.1rem] cursor-pointer hover:bg-black'>
                         <img
                             className='w-8  h-8 rounded-full'
-                            src='http://surl.li/bqkhr' alt='avatar-user' />
+                            src='https://scontent.fsgn5-12.fna.fbcdn.net/v/t39.30808-6/271778337_3005587769771551_2761399793135752073_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_ohc=yYVYxOzwFocAX9xNxin&tn=vDVPutXR-Dnp8Ta9&_nc_ht=scontent.fsgn5-12.fna&oh=00_AT-kYUbyLthW452Win3ofoLg6eBTPLktEo-DmqMXiumuPQ&oe=625B65EF' alt='avatar-user' />
                         <span className='font-bold'>Quang Vũ</span>
                         <MdOutlineNavigateNext className='rotate-90' />
                     </div>

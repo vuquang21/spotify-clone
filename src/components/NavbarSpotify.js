@@ -12,19 +12,19 @@ const NavbarSpotify = () => {
             <BiDotsHorizontal className='text-[2rem] z-10 pt-1' />
             <div className='flex flex-col justify-start items-center gap-3'>
                 <button
-                    className='flex flex-row self-start gap-5 decoration-none text-[#ababab]'>
+                    className='flex flex-row self-start gap-5 decoration-none text-[#ababab] hover:text-white'>
                     <AiFillHome className='self-center text-[2rem]' /><span>Home</span></button>
                 <button
-                    className='flex flex-row self-start gap-5 decoration-none text-[#ababab]'>
+                    className='flex flex-row self-start gap-5 decoration-none text-[#ababab] hover:text-white'>
                     <BiSearch className='self-center text-[2rem]' /><span>Search</span></button>
                 <button
-                    className='flex flex-row self-start gap-5 decoration-none text-[#ababab]'>
+                    className='flex flex-row self-start gap-5 decoration-none text-[#ababab] hover:text-white'>
                     <VscLibrary className='self-center text-[2rem]' /><span>Your Library</span></button>
             </div>
             <div className='flex flex-col items-start justify-start gap-3'>
-                <button className='flex flex-row gap-5 decoration-none text-[#ababab]'>
+                <button className='flex flex-row gap-5 decoration-none text-[#ababab] hover:text-white'>
                     <MdOutlineAddBox className='self-center text-[2rem]' /><span>Create Playlist</span></button>
-                <button className='flex flex-row gap-5 decoration-none text-[#ababab]'>
+                <button className='flex flex-row gap-5 decoration-none text-[#ababab] hover:last:text-white'>
                     <FcLike className='self-center text-[2rem]' /><span>Liked Songs</span></button>
             </div>
         </div>
